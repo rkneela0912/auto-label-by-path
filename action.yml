@@ -1,0 +1,24 @@
+name: 'Auto Label by File Path'
+description: 'Automatically label PRs based on which files or directories were modified'
+author: 'rkneela0912'
+
+inputs:
+  github_token:
+    description: 'GitHub token for API access'
+    required: true
+  path_labels:
+    description: 'JSON mapping of path patterns to labels (e.g., {"src/frontend/**":"frontend","docs/**":"documentation"})'
+    required: true
+
+outputs:
+  labels_added:
+    description: 'Comma-separated list of labels that were added'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'tag'
+  color: 'purple'
+
