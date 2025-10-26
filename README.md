@@ -303,3 +303,12 @@ For issues or questions, [open an issue](https://github.com/rkneela0912/auto-lab
 - **Team Routing:** Auto-assign based on labels
 - **Release Notes:** Group changes by area
 - **Metrics:** Track changes by component
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- 🐛 Report bugs
+- 💡 Suggest features
+- 🔧 Submit pull requests
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
