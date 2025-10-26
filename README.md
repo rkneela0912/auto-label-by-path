@@ -296,3 +296,10 @@ Contributions welcome! Please open an issue or submit a pull request.
 
 For issues or questions, [open an issue](https://github.com/rkneela0912/auto-label-by-path/issues).
 
+
+## 🎯 Use Cases
+
+- **Monorepos:** Label by service/package
+- **Team Routing:** Auto-assign based on labels
+- **Release Notes:** Group changes by area
+- **Metrics:** Track changes by component
